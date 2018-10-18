@@ -1,7 +1,7 @@
 # High-Low
 
 ### I. Initiative
-Overview of the project itself
+A gambling game between a player (rolling a 10 sided dice and guessing whether the number they roll is higher or lower than the opponent's number) and the computer (which acts as an opponent).
 
 ### II. Epics and User Stories
 
