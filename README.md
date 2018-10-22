@@ -6,23 +6,32 @@ A gambling game between a player (rolling a 10 sided dice and guessing whether t
 ### II. Epics and User Stories
 
 ##### Epics
-Outlining the main fuctions of the game
+
+- Random number generator that can produce an integer between 1 and 10 inclusive, twice
+- Comparing 2 randomly generated numbers
+- Taking user input
+
 
 ##### Non-Functional Requirements
-Asthetic or non essential requirements
+
+- The application should recognise and react to input from the keyboard 
+- Inform the user about what the application expects from them
 
 ##### User Stories
-Written in the format: 
 
-As a player, I would _____
-
-
+- As a player, I would see what number the computer has come up with
+- As a player, I would let the application wether I believe to have rolled a higher number or a lower number
+- As a player, I would use the keyboard in order to interact with the application
 
 ##### How We Addressed The Requirements
 
 How will your planned product meet the user requirements
 
 ### III. Genre
+
+This is a gambling game of sorts: the user can achieve a "win" state based on a random guess, but they won't recieve a trackable reward of any kind.
+
+It's also text-based, as the player has to read information from a CLI and send textual commands in order to advance the game.
 
 ### IV. Technical Details
 
@@ -31,9 +40,11 @@ How will your planned product meet the user requirements
 
 ##### Programming Language/Enviroment
 
+I've used C++ 
 
 ##### Programming Challenges
-State the programing challenges you are trying to overcome
+
+My first programming challenge was creating a random number of any kind.
  
 ##### Constructing And Implementing My Code
 
